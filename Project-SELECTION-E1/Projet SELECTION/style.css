@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    background-color: blueviolet;
+}
+
+.LesBoutons {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Evaluateur {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Evaluateur:hover {
+    background-color: #009025;
+    color: white
+}
+
+.Secretaire {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Secretaire:hover {
+    background-color: #00CCCF;
+    color: white;
+}
+
+.Administrateur {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Administrateur:hover {
+    background-color: #FF5B5B;
+    color: white;
+}
