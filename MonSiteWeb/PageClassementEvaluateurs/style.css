@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../Photos/Photo_Evaluateur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Classement {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 700px;
+}
+
+h1 {
+    color: #009025;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Nouveau {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nouveau:hover {
+    background-color: #009025;
+    color: white
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: px solid;
+    font-size: 17px;
+}
+
+td {
+    border: px solid;
+    font-size: 17px;
+}
+
+table .Note {
+    text-align: center;
+}
+
+table .Modif {
+    text-align: center;
+}
+
+table .Etudiants {
+    text-align: left;
+}
+
+.BoutonModif {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.BoutonModif:hover {
+    background-color: #009025;
+    color: white
+}
+
+footer {
+    color: #f2f2f2;
+}
+
+.Deconnexion {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
