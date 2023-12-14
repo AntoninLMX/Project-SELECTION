@@ -24,3 +24,16 @@ Puis, en fonction de la personne qui se connecte :
     - Voir et télécharger le classement au format csv
 - Un espace pour l'administrateur
     - Créer / modifier / supprimer des comptes
+
+# **Identifiants**
+
+Voici les identifiants :
+
+- Evaluateur :
+Email : MartinHenry@gmail.com / Mdp : MartinHenry123
+
+- Secretaire :
+Email : MartinEnzo@gmail.com / Mdp : MartinEnzo123
+
+- Administrateur :
+Email : MartinMaxime@gmail.com / Mdp : MartinMaxime123
